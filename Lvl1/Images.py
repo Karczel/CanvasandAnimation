@@ -15,6 +15,6 @@ canvas.pack()
 resized_image= img.resize((new_size, new_size))
 
 imgtk = ImageTk.PhotoImage(resized_image)
-canvas.create_image(0, 0, anchor=tk.NW, image=imgtk)
+canvas.create_image(0, 0, image=imgtk)
 
 root.mainloop()
